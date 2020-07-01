@@ -1,0 +1,10 @@
+<select class="selectpicker w-100" (ngModelChange)="changeValue($event)" data-style="btn-info" name="category">
+                            <optgroup label="Select Categories">
+                              <option name="" value=0>Select categories</option>
+                              <option name="table1" value=1>Self-Awareness</option>
+                              <option name="table2" value=2>Self-Management</option>
+                              <option name="table3" value=3>Social-Awareness</option>
+                              <option name="table4" value=4>Relationship Skills</option>
+                              <option name="table5" value=5>Decision Making</option>
+                            </optgroup>
+                        </select>
